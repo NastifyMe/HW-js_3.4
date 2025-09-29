@@ -1,0 +1,8 @@
+.lazy-loader img{
+    width: 600px;
+    padding: 50px 50px;
+    border-radius: 20%;
+}
+body {
+    background-color: rgb(89, 89, 89);
+}
