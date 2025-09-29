@@ -2,7 +2,37 @@
     width: 600px;
     padding: 50px 50px;
     border-radius: 20%;
+    opacity: 0;
+    margin-bottom: 500px; 
+    transition: opacity 1s ease-in-out;
+
 }
 body {
     background-color: rgb(89, 89, 89);
+}
+.lazy-loader img.load{
+    opacity: 1;
+}
+.lazy-loader{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.show{
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: solid;
+    background-color: rgb(196, 227, 255);
+    cursor: pointer;
+    transition: scale 0.7s ease;
+}
+.show:hover{
+    scale: 1.1;
+}
+.container_btn{
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
 }
